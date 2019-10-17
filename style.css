@@ -1,0 +1,66 @@
+.mainoutline{
+    border: solid black 2px;
+    margin-left: 500px;
+    height: 510px;
+    width: 300px;
+}
+
+img.thumb{
+    height: 400px;
+    width: 300px;
+}
+
+img.play{
+    margin-top: 10px; 
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    left: 624px;
+    top: 405px;
+}
+
+img.pause{
+    margin-top: 10px; 
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 405px;
+    left: 624px;
+    visibility: hidden;
+}
+
+img.next{
+    margin-left: 5px;
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    left: 724px;
+}
+
+img.prev{
+    margin-right: 5px;
+    height: 70px;
+    width: 70px;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 520px;
+}
+
+progress{
+    width: 220px;
+    position: absolute; 
+    left: 550px;
+    top: 485px;
+}
+
+small.strt{
+    position: absolute;
+    left: 515px;
+    top: 485px;
+}
+
+small.end{
+    position: absolute;
+    left: 780px;
+    top: 485px;
+}

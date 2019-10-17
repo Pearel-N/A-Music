@@ -1,0 +1,84 @@
+playlist = {
+    "tracks" : [
+        {
+            "id" : 0,
+            "trackNo": "1",
+            "name" : "All Of Me",
+            "url" : "https://drive.google.com/uc?export=download&id=1rQLs-lv-pWNffX8_xc-zCg52kjgHiPwD",
+            "artist" : "John Legend",
+            "albumArt" : "https://vignette.wikia.nocookie.net/singmovie/images/3/3f/All_of_Me.jpg/revision/latest?cb=20170328180216"
+        },
+        {
+            "id" : 1,
+            "trackNo": "2",
+            "name" : "Night Changes",
+            "url" : "https://drive.google.com/uc?export=download&id=161JB2yPvE5AMOxsJgXB0JBINNunNk69h",
+            "artist" : "One Direction",
+            "albumArt" : "https://vignette.wikia.nocookie.net/onedirection/images/e/ee/Night_Changes_cover.png/revision/latest?cb=20150220031229"
+        },
+        {
+            "id" : 2,
+            "trackNo": "3",
+            "name" : "I Took A Pill In Ibiza",
+            "url" : "https://drive.google.com/uc?export=download&id=1I0oTUUfezx4_KKZZgZc-BC_lOhTMgHGb",
+            "artist" : "Mike Posner",
+            "albumArt" : "http://directlyrics.com/img/upload/0b910269.jpg"
+        },
+        {
+            "id" : 3,
+            "trackNo": "4",
+            "name" : "Can't Help Falling In Love With You",
+            "url" : "https://drive.google.com/uc?export=download&id=1X6dmhTsf_uhfavJOVXUpPl6StR54RKzT",
+            "artist" : "Elvis Presley",
+            "albumArt" : "https://ec-assets.sheetmusicplus.com/items/2896522/cover_images/cover-large_file.png"
+        },
+        {
+            "id" : 4,
+            "trackNo": "5",
+            "name" : "Can't Feel My Face",
+            "url" : "https://drive.google.com/uc?export=download&id=1bgxxdzJotNbwLVV0lEWWFIHY6l2bJCik",
+            "artist" : "The Weeknd",
+            "albumArt" : "https://www.cocosbassment.com/wp-content/uploads/2016/08/the-weeknd-cant-feel-my-face_jkse1j.jpg"
+        },
+        {
+            "id" : 5,
+            "trackNo": "6",
+            "name" : "Hey There Deliliah",
+            "url" : "https://drive.google.com/uc?export=download&id=1s52Gq6-ACABe-UND0dJxt1Ra0QxJGcsI",
+            "artist" : "Plain White Ts",
+            "albumArt" : "https://upload.wikimedia.org/wikipedia/en/d/dd/Plain_white_t%27s_here_there_delilah.jpg"
+        },
+        {
+            "id" : 6,
+            "trackNo": "7",
+            "name" : "Soap",
+            "url" : "https://drive.google.com/uc?export=download&id=1iNF3pVugi14LiILH2sh-wREgkadbhRnY",
+            "artist" : "Melanie Martinez",
+            "albumArt" : "https://upload.wikimedia.org/wikipedia/en/6/61/Melanie_martinez_soap_promo_single_cover.png"
+        },
+        {
+            "id" : 7,
+            "trackNo": "8",
+            "name" : "Yellow",
+            "url" : "https://drive.google.com/uc?export=download&id=1re6QIXgxvPos9Np0QoqHGn6Tdft-XArv",
+            "artist" : "Coldplay",
+            "albumArt" : "https://i.pinimg.com/originals/ca/dd/4a/cadd4a1d1c104069f7c834da9ea34209.jpg"
+        },
+        {
+            "id" : 8,
+            "trackNo": "9",
+            "name" : "Just The Way You Are",
+            "url" : "https://drive.google.com/uc?export=download&id=1dDVkykQiwhJEjhSog3hRASfXZG5zBQWT",
+            "artist" : "Bruno Mars",
+            "albumArt" : "https://upload.wikimedia.org/wikipedia/en/f/fa/Bruno-mars-just-the-way-you-are.jpg"
+        },
+        {
+            "id": 9,
+            "trackNo": "10",
+            "name": "Thunder",
+            "url": "https://drive.google.com/uc?export=download&id=1OSj43zL_zSwxSTvy6nKc_AGI_DwcdcI-",
+            "artist" : "Imagine Dragons",
+            "albumArt" : "https://images-na.ssl-images-amazon.com/images/I/41Dv21L5tDL._AC_US160_.jpg"
+        }
+    ]
+}

@@ -1,17 +1,63 @@
+let state = ( function() {
+    let currentSong = 0;
+	return {
+        nextSong: function(){
+            currentSong = (currentSong != 9)?currentSong + 1 : 0;
+            return currentSong;
+        },
+        prevSong: function(){
+            currentSong = (currentSong != 0)?currentSong - 1 : 9;
+            return currentSong;
+        },
+        getCurrentSong: function(){
+            return currentSong;
+        }
+    }
+})();
+
+document.addEventListener('DOMContentLoaded', function() {
+    //first function to be called when page loads
+    document.getElementById('player').load();
+    loadTrack(0); //load the first track
+})
+
+
+let loadTrack = function(songIndex) {
+    console.log(playlist.tracks[songIndex]);
+    var track = playlist.tracks[songIndex];
+    document.getElementById('player-source').src = track.url;
+    document.getElementById('albmart').src = track.albumArt;
+    document.getElementById('song-title').innerHTML = track.name;
+}
+
+let nextTrack = function() {
+    pause();
+    loadTrack(state.nextSong());
+    document.getElementById('player').load(); 
+    play();
+}
+
+let prevTrack = function() {
+    pause();
+    loadTrack(state.prevSong());
+    document.getElementById('player').load(); 
+    play();
+}
+
 function play(){
-    document.getElementById('music').play();
+    document.getElementById('player').play();
     document.getElementById('play').style.visibility = 'hidden';
     document.getElementById('pause').style.visibility = 'visible';
 }
 
 function pause(){
-    document.getElementById('music').pause();
+    document.getElementById('player').pause();
     document.getElementById('play').style.visibility = 'visible';
     document.getElementById('pause').style.visibility = 'hidden';
 }
 
 function initProgressBar() {
-    var player = document.getElementById('music');
+    var player = document.getElementById('player');
     var length = player.duration
     var current_time = player.currentTime;
   

@@ -2,21 +2,24 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="style.css">
-        <script type="text/javascript" src="javascript.js"></script>
     </head>
     <body>
         <div class="mainoutline" align="center">
-            <audio id="music" ontimeupdate="initProgressBar()">
-                <source src="Music/Fade.mp3">
+            <audio id="player" ontimeupdate="initProgressBar()">
+                <source id="player-source">
             </audio>
-            <img class="thumb" src="images/DragMeDown.jpg" />
-            <img class="prev" src="images/next.png" />
+            <img id="albmart" class="thumb" />
+            <h2 id="song-title"></h2>
+            <img class="prev" src="images/next.png" onclick="prevTrack()"/>
             <img class="play" id="play" src="images/play.png" onclick="play()"/>
             <img class="pause" id="pause" src="images/pause.png" onclick="pause()"/>
-            <img class="next" src="images/next.png" />
+            <img class="next" src="images/next.png" onclick="nextTrack()"/>
             <small class="strt" id="start-time"></small>
             <progress id="seek-obj" value="0" max="1"></progress>
             <small class="end" id="end-time"></small>
         </div>
+        
+        <script src="playlist.json"></script>
+        <script type="text/javascript" src="javascript.js"></script>
     </body>
 </html>

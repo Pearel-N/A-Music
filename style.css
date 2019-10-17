@@ -1,7 +1,7 @@
 .mainoutline{
     border: solid black 2px;
     margin-left: 500px;
-    height: 510px;
+    height: 560px;
     width: 300px;
 }
 
@@ -14,9 +14,9 @@ img.play{
     margin-top: 10px; 
     height: 70px;
     width: 70px;
-    position: absolute;
+    position: absolute; 
     left: 624px;
-    top: 405px;
+    top: 450px;
 }
 
 img.pause{
@@ -24,7 +24,7 @@ img.pause{
     height: 70px;
     width: 70px;
     position: absolute;
-    top: 405px;
+    top: 450px;
     left: 624px;
     visibility: hidden;
 }
@@ -34,7 +34,8 @@ img.next{
     height: 70px;
     width: 70px;
     position: absolute;
-    left: 724px;
+    left: 724px;    
+    top: 460px;
 }
 
 img.prev{
@@ -44,23 +45,24 @@ img.prev{
     transform: rotate(180deg);
     position: absolute;
     left: 520px;
+    top: 460px;
 }
 
 progress{
     width: 220px;
     position: absolute; 
     left: 550px;
-    top: 485px;
+    top: 530px;
 }
 
 small.strt{
     position: absolute;
     left: 515px;
-    top: 485px;
+    top: 530px;
 }
 
 small.end{
     position: absolute;
     left: 780px;
-    top: 485px;
+    top: 530px  ;
 }

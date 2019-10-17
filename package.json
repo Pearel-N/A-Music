@@ -1,0 +1,24 @@
+{
+  "name": "amustracks",
+  "version": "1.0.0",
+  "description": "Music player for selected songs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pearel-N/A-Music.git"
+  },
+  "author": "Pearel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pearel-N/A-Music/issues"
+  },
+  "homepage": "https://github.com/Pearel-N/A-Music#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
